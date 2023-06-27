@@ -55,6 +55,30 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./app/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/layouts/Filters.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/layouts/Filters.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/products/listProducts.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/products/listProducts.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -218,9 +242,37 @@
         "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
+    },
+    "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/app/page.jsx": {
+      "id": "(app-client)/./app/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/components/layouts/Filters.jsx": {
+      "id": "(app-client)/./components/layouts/Filters.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/components/products/listProducts.jsx": {
+      "id": "(app-client)/./components/products/listProducts.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/app/layout": {
       "modules": [
         "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/app/globals.css"
@@ -228,10 +280,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/Gabriel/Documents/GitHub/Ecommerce-built-with-NextJS-MongoDB-and-Stripe/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
